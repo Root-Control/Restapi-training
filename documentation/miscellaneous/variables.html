@@ -1,0 +1,1547 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>thelinkstore-nest-v6.0.0 documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	      <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">thelinkstore-nest-v6.0.0 documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content miscellaneous-variables">
+                   <div class="content-data">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<ol class="breadcrumb">
+  <li>Miscellaneous</li>
+  <li>Variables</li>
+</ol>
+
+<section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <ul class="index-list">
+                        <li>
+                            <a href="#ARTICLE_MODEL_TOKEN" title="src/server.constants.ts"><b>ARTICLE_MODEL_TOKEN</b>&nbsp;&nbsp;&nbsp;(src/.../server.constants.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#articleProviders" title="src/modules/articles/articles.providers.ts"><b>articleProviders</b>&nbsp;&nbsp;&nbsp;(src/.../articles.providers.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#articleSchema" title="src/modules/articles/joi/article.joi.ts"><b>articleSchema</b>&nbsp;&nbsp;&nbsp;(src/.../article.joi.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#ArticleSchema" title="src/modules/articles/schemas/article.schema.ts"><b>ArticleSchema</b>&nbsp;&nbsp;&nbsp;(src/.../article.schema.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#authProviders" title="src/modules/auth/auth.providers.ts"><b>authProviders</b>&nbsp;&nbsp;&nbsp;(src/.../auth.providers.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#authUserSchema" title="src/modules/users/joi/auth-user.joi.ts"><b>authUserSchema</b>&nbsp;&nbsp;&nbsp;(src/.../auth-user.joi.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#Config" title="src/config/config.ts"><b>Config</b>&nbsp;&nbsp;&nbsp;(src/.../config.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#databaseProviders" title="src/database/database.providers.ts"><b>databaseProviders</b>&nbsp;&nbsp;&nbsp;(src/.../database.providers.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#DB_CONNECTION_TOKEN" title="src/server.constants.ts"><b>DB_CONNECTION_TOKEN</b>&nbsp;&nbsp;&nbsp;(src/.../server.constants.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#env" title="src/server.constants.ts"><b>env</b>&nbsp;&nbsp;&nbsp;(src/.../server.constants.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#environmentService" title="src/config/config.ts"><b>environmentService</b>&nbsp;&nbsp;&nbsp;(src/.../config.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#environmentService" title="src/config/multer.ts"><b>environmentService</b>&nbsp;&nbsp;&nbsp;(src/.../multer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#envService" title="src/server.constants.ts"><b>envService</b>&nbsp;&nbsp;&nbsp;(src/.../server.constants.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#FACEBOOK_CONFIG_TOKEN" title="src/server.constants.ts"><b>FACEBOOK_CONFIG_TOKEN</b>&nbsp;&nbsp;&nbsp;(src/.../server.constants.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#facebookConfig" title="src/modules/auth/config/facebook-config.ts"><b>facebookConfig</b>&nbsp;&nbsp;&nbsp;(src/.../facebook-config.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#FacebookTokenStrategy" title="src/modules/auth/passport/facebook.strategy.ts"><b>FacebookTokenStrategy</b>&nbsp;&nbsp;&nbsp;(src/.../facebook.strategy.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#generateHashedPassword" title="src/utilities/encryption.ts"><b>generateHashedPassword</b>&nbsp;&nbsp;&nbsp;(src/.../encryption.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#generateSalt" title="src/utilities/encryption.ts"><b>generateSalt</b>&nbsp;&nbsp;&nbsp;(src/.../encryption.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#GOOGLE_CONFIG_TOKEN" title="src/server.constants.ts"><b>GOOGLE_CONFIG_TOKEN</b>&nbsp;&nbsp;&nbsp;(src/.../server.constants.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#googleConfig" title="src/modules/auth/config/google-config.ts"><b>googleConfig</b>&nbsp;&nbsp;&nbsp;(src/.../google-config.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#GoogleTokenStrategy" title="src/modules/auth/passport/google-plus.strategy.ts"><b>GoogleTokenStrategy</b>&nbsp;&nbsp;&nbsp;(src/.../google-plus.strategy.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#illegalUsernames" title="src/modules/users/schemas/user.schema.ts"><b>illegalUsernames</b>&nbsp;&nbsp;&nbsp;(src/.../user.schema.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#jwtSecret" title="src/config/config.ts"><b>jwtSecret</b>&nbsp;&nbsp;&nbsp;(src/.../config.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#log" title="src/main.ts"><b>log</b>&nbsp;&nbsp;&nbsp;(src/.../main.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#MESSAGES" title="src/server.constants.ts"><b>MESSAGES</b>&nbsp;&nbsp;&nbsp;(src/.../server.constants.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#MulterConfig" title="src/config/multer.ts"><b>MulterConfig</b>&nbsp;&nbsp;&nbsp;(src/.../multer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#opts" title="src/database/database.providers.ts"><b>opts</b>&nbsp;&nbsp;&nbsp;(src/.../database.providers.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#parseImageURL" title="src/common/helpers/converters.ts"><b>parseImageURL</b>&nbsp;&nbsp;&nbsp;(src/.../converters.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#Roles" title="src/decorators/roles.decorator.ts"><b>Roles</b>&nbsp;&nbsp;&nbsp;(src/.../roles.decorator.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#rootPath" title="src/config/config.ts"><b>rootPath</b>&nbsp;&nbsp;&nbsp;(src/.../config.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#SERVER_CONFIG" title="src/server.constants.ts"><b>SERVER_CONFIG</b>&nbsp;&nbsp;&nbsp;(src/.../server.constants.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#SERVER_CONFIG_TOKEN" title="src/server.constants.ts"><b>SERVER_CONFIG_TOKEN</b>&nbsp;&nbsp;&nbsp;(src/.../server.constants.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#storage" title="src/config/multer.ts"><b>storage</b>&nbsp;&nbsp;&nbsp;(src/.../multer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#TWITTER_CONFIG_TOKEN" title="src/server.constants.ts"><b>TWITTER_CONFIG_TOKEN</b>&nbsp;&nbsp;&nbsp;(src/.../server.constants.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#twitterConfig" title="src/modules/auth/config/twitter-config.ts"><b>twitterConfig</b>&nbsp;&nbsp;&nbsp;(src/.../twitter-config.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#TwitterTokenStrategy" title="src/modules/auth/passport/twitter.strategy.ts"><b>TwitterTokenStrategy</b>&nbsp;&nbsp;&nbsp;(src/.../twitter.strategy.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#USER_MODEL_TOKEN" title="src/server.constants.ts"><b>USER_MODEL_TOKEN</b>&nbsp;&nbsp;&nbsp;(src/.../server.constants.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#userProviders" title="src/modules/users/users.providers.ts"><b>userProviders</b>&nbsp;&nbsp;&nbsp;(src/.../users.providers.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#UserSchema" title="src/modules/users/schemas/user.schema.ts"><b>UserSchema</b>&nbsp;&nbsp;&nbsp;(src/.../user.schema.ts)</a>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+    <h3>src/server.constants.ts</h3>
+    <section>
+    <h3></h3>        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="ARTICLE_MODEL_TOKEN"></a>
+                        <span class="name">
+                            <b>
+                            ARTICLE_MODEL_TOKEN</b>
+                            <a href="#ARTICLE_MODEL_TOKEN"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>&#x27;Article&#x27;</code>
+                        </td>
+                    </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>Token for Article model</p>
+</div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="DB_CONNECTION_TOKEN"></a>
+                        <span class="name">
+                            <b>
+                            DB_CONNECTION_TOKEN</b>
+                            <a href="#DB_CONNECTION_TOKEN"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>&#x27;DbConnectionToken&#x27;</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="env"></a>
+                        <span class="name">
+                            <b>
+                            env</b>
+                            <a href="#env"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>envService.get(&#x27;NODE_ENV&#x27;) || &#x27;development&#x27;</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="envService"></a>
+                        <span class="name">
+                            <b>
+                            envService</b>
+                            <a href="#envService"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>new EnvironmentService(&#x27;.env&#x27;)</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="FACEBOOK_CONFIG_TOKEN"></a>
+                        <span class="name">
+                            <b>
+                            FACEBOOK_CONFIG_TOKEN</b>
+                            <a href="#FACEBOOK_CONFIG_TOKEN"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>&#x27;FacebookConfigToken&#x27;</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="GOOGLE_CONFIG_TOKEN"></a>
+                        <span class="name">
+                            <b>
+                            GOOGLE_CONFIG_TOKEN</b>
+                            <a href="#GOOGLE_CONFIG_TOKEN"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>&#x27;GoogleConfigToken&#x27;</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="MESSAGES"></a>
+                        <span class="name">
+                            <b>
+                            MESSAGES</b>
+                            <a href="#MESSAGES"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/object" target="_blank" >object</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>{
+  UNAUTHORIZED_EMAIL_OR_USERNAME_IN_USE: &#x27;Email or username already exists&#x27;,
+  UNAUTHORIZED_INVALID_PASSWORD: &#x27;Invalid password&#x27;,
+  UNAUTHORIZED_INVALID_EMAIL: &#x27;The email does not exist&#x27;,
+  UNAUTHORIZED_UNRECOGNIZED_BEARER: &#x27;Unrecognized bearer of the token&#x27;
+}</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="SERVER_CONFIG"></a>
+                        <span class="name">
+                            <b>
+                            SERVER_CONFIG</b>
+                            <a href="#SERVER_CONFIG"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="../interfaces/IEnvironmentConfig.html" target="_self" >IEnvironmentConfig</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>Config[env]</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="SERVER_CONFIG_TOKEN"></a>
+                        <span class="name">
+                            <b>
+                            SERVER_CONFIG_TOKEN</b>
+                            <a href="#SERVER_CONFIG_TOKEN"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>&#x27;ServerConfigToken&#x27;</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="TWITTER_CONFIG_TOKEN"></a>
+                        <span class="name">
+                            <b>
+                            TWITTER_CONFIG_TOKEN</b>
+                            <a href="#TWITTER_CONFIG_TOKEN"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>&#x27;TwitterConfigToken&#x27;</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="USER_MODEL_TOKEN"></a>
+                        <span class="name">
+                            <b>
+                            USER_MODEL_TOKEN</b>
+                            <a href="#USER_MODEL_TOKEN"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>&#x27;User&#x27;</code>
+                        </td>
+                    </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>Token for User  model</p>
+</div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+</section>
+    <h3>src/modules/articles/articles.providers.ts</h3>
+    <section>
+    <h3></h3>        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="articleProviders"></a>
+                        <span class="name">
+                            <b>
+                            articleProviders</b>
+                            <a href="#articleProviders"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>[]</code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>[{
+        provide: ARTICLE_MODEL_TOKEN,
+        useFactory: (connection: Connection) &#x3D;&gt; connection.model(&#x27;Article&#x27;, ArticleSchema),
+        inject: [DB_CONNECTION_TOKEN]
+}]</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+</section>
+    <h3>src/modules/articles/joi/article.joi.ts</h3>
+    <section>
+    <h3></h3>        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="articleSchema"></a>
+                        <span class="name">
+                            <b>
+                            articleSchema</b>
+                            <a href="#articleSchema"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>ObjectSchema</code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>object({
+  title: string().required(),
+  content: string().required()
+})</code>
+                        </td>
+                    </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>Article Schema Declaration (Before REST communication)</p>
+</div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+</section>
+    <h3>src/modules/articles/schemas/article.schema.ts</h3>
+    <section>
+    <h3></h3>        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="ArticleSchema"></a>
+                        <span class="name">
+                            <b>
+                            ArticleSchema</b>
+                            <a href="#ArticleSchema"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>Schema</code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>new Schema({
+  created: {
+    type: Date,
+    default: new Date()
+  },
+  title: {
+    type: String,
+    required: &#x27;Title cannot be blank&#x27;
+  },
+  content: {
+    type: String,
+    default: &#x27;&#x27;
+  },
+  creator: {
+    type: Schema.Types.ObjectId,
+    ref: &#x27;User&#x27;
+  }
+})</code>
+                        </td>
+                    </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>Article Schema Declaration for Mongodb, declarated by mongoose schema</p>
+</div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+</section>
+    <h3>src/modules/auth/auth.providers.ts</h3>
+    <section>
+    <h3></h3>        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="authProviders"></a>
+                        <span class="name">
+                            <b>
+                            authProviders</b>
+                            <a href="#authProviders"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>[]</code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>[
+  {
+    provide: FACEBOOK_CONFIG_TOKEN,
+    useValue: facebookConfig
+  },
+  {
+    provide: TWITTER_CONFIG_TOKEN,
+    useValue: twitterConfig
+  },
+  {
+    provide: GOOGLE_CONFIG_TOKEN,
+    useValue: googleConfig
+  }
+]</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+</section>
+    <h3>src/modules/users/joi/auth-user.joi.ts</h3>
+    <section>
+    <h3></h3>        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="authUserSchema"></a>
+                        <span class="name">
+                            <b>
+                            authUserSchema</b>
+                            <a href="#authUserSchema"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>ObjectSchema</code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>object({
+  firstName: string().required(),
+  lastName: string().required(),
+  username: string().required(),
+  email: string().email().required(),
+  password: string().alphanum().min(6).max(36).required()
+})</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+</section>
+    <h3>src/config/config.ts</h3>
+    <section>
+    <h3></h3>        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="Config"></a>
+                        <span class="name">
+                            <b>
+                            Config</b>
+                            <a href="#Config"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="../interfaces/IConfig.html" target="_self" >IConfig</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>{
+  development: {
+    rootPath,
+    db_uri: &#x27;mongodb://localhost:27017/default&#x27;,
+    dbs: environmentService.get(&#x27;DBS&#x27;),
+    httpPort: 1337,
+    wsPort: 1338,
+    jwtSecret,
+    domain: &#x27;localhost&#x27;,
+    httpProtocol: &#x27;http&#x27;,
+    wsProtocol: &#x27;ws&#x27;,
+    awsKey: environmentService.get(&#x27;AWS_KEY&#x27;),
+    awsSecret: environmentService.get(&#x27;AWS_SECRET&#x27;)
+  },
+  production: {
+    rootPath,
+    db_uri: &#x27;mongodb://localhost:27017/default&#x27;,   
+    dbs: environmentService.get(&#x27;DBS&#x27;), 
+    httpPort: + environmentService.get(&#x27;HTTP_SERVER_PORT&#x27;),
+    wsPort: + environmentService.get(&#x27;WS_PORT&#x27;),
+    jwtSecret,
+    domain: environmentService.get(&#x27;DOMAIN&#x27;),
+    httpProtocol: environmentService.get(&#x27;HTTP_PROTOCOL&#x27;),
+    wsProtocol: environmentService.get(&#x27;WS_PROTOCOL&#x27;),
+    awsKey: environmentService.get(&#x27;AWS_KEY&#x27;),
+    awsSecret: environmentService.get(&#x27;AWS_SECRET&#x27;)
+  }
+}</code>
+                        </td>
+                    </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>Definimos los valores para local y produccion</p>
+</div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="environmentService"></a>
+                        <span class="name">
+                            <b>
+                            environmentService</b>
+                            <a href="#environmentService"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>new EnvironmentService(&#x27;.env&#x27;)</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="jwtSecret"></a>
+                        <span class="name">
+                            <b>
+                            jwtSecret</b>
+                            <a href="#jwtSecret"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>extractKey(&#x60;${rootPath}/keys/jwt.private.key&#x60;)</code>
+                        </td>
+                    </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>En la constante jwtSecret asignamos la llave creada en /keys/jwt.private.key</p>
+</div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="rootPath"></a>
+                        <span class="name">
+                            <b>
+                            rootPath</b>
+                            <a href="#rootPath"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>process.cwd()</code>
+                        </td>
+                    </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>Seteamos la variable rootPath, para saber la ruta en la cual se encuentra el servidor.</p>
+</div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+</section>
+    <h3>src/database/database.providers.ts</h3>
+    <section>
+    <h3></h3>        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="databaseProviders"></a>
+                        <span class="name">
+                            <b>
+                            databaseProviders</b>
+                            <a href="#databaseProviders"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>[]</code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>[{
+    provide: DB_CONNECTION_TOKEN,
+    useFactory: async () &#x3D;&gt; {
+        try {
+            console.log(&#x60;Connecting to ${SERVER_CONFIG.db_uri}&#x60;);
+            return await createConnection(&#x60;${SERVER_CONFIG.db_uri}&#x60;, opts);
+        } catch (ex) {
+            console.log(ex);
+        }
+    }   
+}]</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="opts"></a>
+                        <span class="name">
+                            <b>
+                            opts</b>
+                            <a href="#opts"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/object" target="_blank" >object</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>{
+    useCreateIndex: true,
+    useNewUrlParser: true,
+    keepAlive: true,
+    socketTimeoutMS: 30000,
+    poolSize: 100,
+    reconnectTries: Number.MAX_VALUE,
+    reconnectInterval: 500,
+    autoReconnect: true,
+  }</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+</section>
+    <h3>src/config/multer.ts</h3>
+    <section>
+    <h3></h3>        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="environmentService"></a>
+                        <span class="name">
+                            <b>
+                            environmentService</b>
+                            <a href="#environmentService"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>new EnvironmentService(&#x27;.env&#x27;)</code>
+                        </td>
+                    </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>New instance of environment service class</p>
+</div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="MulterConfig"></a>
+                        <span class="name">
+                            <b>
+                            MulterConfig</b>
+                            <a href="#MulterConfig"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/object" target="_blank" >object</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>{
+  storage: storage
+}</code>
+                        </td>
+                    </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>Creating variable for exportation</p>
+</div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="storage"></a>
+                        <span class="name">
+                            <b>
+                            storage</b>
+                            <a href="#storage"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>creating storage variable, this variable will get the configuration (local or production)</p>
+</div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+</section>
+    <h3>src/modules/auth/config/facebook-config.ts</h3>
+    <section>
+    <h3></h3>        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="facebookConfig"></a>
+                        <span class="name">
+                            <b>
+                            facebookConfig</b>
+                            <a href="#facebookConfig"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="../interfaces/IFacebookConfig.html" target="_self" >IFacebookConfig</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>{
+  login_dialog_uri: &#x27;https://www.facebook.com/v2.12/dialog/oauth&#x27;,
+  access_token_uri: &#x27;https://graph.facebook.com/v2.12/oauth/access_token&#x27;,
+  client_id: &#x27;448307408974851&#x27;,
+  client_secret: &#x27;4bef83a9a03d5c81445896dbc623b01d&#x27;,
+  oauth_redirect_uri: &#x27;http://localhost:4200/index&#x27;,
+  state: &#x27;{fbstate}&#x27;
+}</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+</section>
+    <h3>src/modules/auth/passport/facebook.strategy.ts</h3>
+    <section>
+    <h3></h3>        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="FacebookTokenStrategy"></a>
+                        <span class="name">
+                            <b>
+                            FacebookTokenStrategy</b>
+                            <a href="#FacebookTokenStrategy"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>require(&#x27;passport-facebook-token&#x27;)</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+</section>
+    <h3>src/utilities/encryption.ts</h3>
+    <section>
+    <h3></h3>        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="generateHashedPassword"></a>
+                        <span class="name">
+                            <b>
+                            generateHashedPassword</b>
+                            <a href="#generateHashedPassword"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>(salt, password) &#x3D;&gt; {
+  return createHmac(&#x27;sha256&#x27;, salt).update(password).digest(&#x27;hex&#x27;);
+}</code>
+                        </td>
+                    </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>Generating hashed password for the provided salt, password
+Params - Salt - password</p>
+</div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="generateSalt"></a>
+                        <span class="name">
+                            <b>
+                            generateSalt</b>
+                            <a href="#generateSalt"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>() &#x3D;&gt; {
+  return randomBytes(128).toString(&#x27;base64&#x27;);
+}</code>
+                        </td>
+                    </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>Salt generator for password and user schema
+Params - none</p>
+</div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+</section>
+    <h3>src/modules/auth/config/google-config.ts</h3>
+    <section>
+    <h3></h3>        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="googleConfig"></a>
+                        <span class="name">
+                            <b>
+                            googleConfig</b>
+                            <a href="#googleConfig"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="../interfaces/IGoogleConfig.html" target="_self" >IGoogleConfig</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>{
+  login_dialog_uri: &#x27;https://accounts.google.com/o/oauth2/auth&#x27;,
+  client_id: &#x27;342352192956-dr6rht4d8neev4lsf11inalma1j86rrf.apps.googleusercontent.com&#x27;,
+  client_secret: &#x27;PKiHC4-jos975AffhQgSLcR6&#x27;,
+  oauth_redirect_uri: &#x27;http://localhost:4200/index&#x27;,
+  access_token_uri: &#x27;https://accounts.google.com/o/oauth2/token&#x27;,
+  response_type: &#x27;code&#x27;,
+  scopes: [
+    &#x27;https://www.googleapis.com/auth/plus.login&#x27;,
+    &#x27;https://www.googleapis.com/auth/plus.profile.emails.read&#x27;
+  ],
+  grant_type: &#x27;authorization_code&#x27;
+}</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+</section>
+    <h3>src/modules/auth/passport/google-plus.strategy.ts</h3>
+    <section>
+    <h3></h3>        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="GoogleTokenStrategy"></a>
+                        <span class="name">
+                            <b>
+                            GoogleTokenStrategy</b>
+                            <a href="#GoogleTokenStrategy"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>require(&#x27;passport-google-plus-token&#x27;)</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+</section>
+    <h3>src/modules/users/schemas/user.schema.ts</h3>
+    <section>
+    <h3></h3>        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="illegalUsernames"></a>
+                        <span class="name">
+                            <b>
+                            illegalUsernames</b>
+                            <a href="#illegalUsernames"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>string[]</code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>[&#x27;meanjs&#x27;, &#x27;administrator&#x27;, &#x27;password&#x27;, &#x27;admin&#x27;, &#x27;user&#x27;, &#x27;unknown&#x27;, &#x27;anonymous&#x27;, &#x27;null&#x27;, &#x27;undefined&#x27;, &#x27;api&#x27;]</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="UserSchema"></a>
+                        <span class="name">
+                            <b>
+                            UserSchema</b>
+                            <a href="#UserSchema"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>Schema</code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>new Schema({
+  created: {
+    type: Date,
+    default: new Date()
+  },
+  firstName: {
+    type: String,
+    required: &#x27;First name is required&#x27;
+  },
+  lastName: {
+    type: String,
+    required: &#x27;Last name is required&#x27;
+  },
+  displayName: {
+    type: String,
+    trim: true
+  },
+  email: {
+    type: String,
+    index: {
+      unique: true,
+      sparse: true // For this to work on a previously indexed field, the index must be dropped &amp; the application restarted.
+    },
+    lowercase: true,
+    trim: true,
+  },
+  username: {
+    type: String,
+    unique: &#x27;Username already exists&#x27;,
+    required: &#x27;Please fill in a username&#x27;,
+    validate: [validateUsername, &#x27;Please enter a valid username: 3+ characters long, non restricted word, characters &quot;_-.&quot;, no consecutive dots, does not begin or end with dots, letters a-z and numbers 0-9.&#x27;],
+    lowercase: true,
+    trim: true
+  },
+  active: {
+    type: Boolean,
+    default: false
+  },
+  password: {
+    type: String,
+    default: &#x27;&#x27;
+  },
+  profileImageURL: {
+    type: String,
+    default: &#x27;/modules/users/client/img/profile/default.png&#x27;
+  },
+  salt: {
+    type: String
+  },
+  provider: {
+    type: String,
+    required: &#x27;Provider is required&#x27;
+  },
+  providerData: {},
+  additionalProvidersData: {},
+  roles: {
+    type: [{
+      type: String,
+      enum: [&#x27;user&#x27;, &#x27;admin&#x27;]
+    }],
+    default: [&#x27;user&#x27;],
+    required: &#x27;Please provide at least one role&#x27;
+  },
+  updated: {
+    type: Date
+  },
+  /* For reset password */
+  resetPasswordToken: {
+    type: String
+  },
+  resetPasswordExpires: {
+    type: Date
+  }
+})</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+</section>
+    <h3>src/main.ts</h3>
+    <section>
+    <h3></h3>        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="log"></a>
+                        <span class="name">
+                            <b>
+                            log</b>
+                            <a href="#log"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>chalk.default</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+</section>
+    <h3>src/common/helpers/converters.ts</h3>
+    <section>
+    <h3></h3>        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="parseImageURL"></a>
+                        <span class="name">
+                            <b>
+                            parseImageURL</b>
+                            <a href="#parseImageURL"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>(url) &#x3D;&gt; {
+	console.log(url);
+	return url;
+}</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+</section>
+    <h3>src/decorators/roles.decorator.ts</h3>
+    <section>
+    <h3></h3>        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="Roles"></a>
+                        <span class="name">
+                            <b>
+                            Roles</b>
+                            <a href="#Roles"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>(...roles: string[]) &#x3D;&gt; SetMetadata(&#x27;roles&#x27;, roles)</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+</section>
+    <h3>src/modules/auth/config/twitter-config.ts</h3>
+    <section>
+    <h3></h3>        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="twitterConfig"></a>
+                        <span class="name">
+                            <b>
+                            twitterConfig</b>
+                            <a href="#twitterConfig"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="../interfaces/ITwitterConfig.html" target="_self" >ITwitterConfig</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>{
+  consumer_key: &#x27;gkeY5a5pIuKSwTRDNJwqnyCDZ&#x27;,
+  consumer_secret: &#x27;XCrSo4BXergVa9TIfCaK1oNLCdM53cBu75RMevVBDZ3jnB7dQN&#x27;,
+  request_token_uri: &#x27;https://api.twitter.com/oauth/request_token&#x27;,
+  login_dialog_uri: &#x27;https://api.twitter.com/oauth/authenticate&#x27;,
+  access_token_uri: &#x27;https://api.twitter.com/oauth/access_token&#x27;,
+  oauth_redirect_uri: &#x27;http://localhost:4200/recipes&#x27;
+}</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+</section>
+    <h3>src/modules/auth/passport/twitter.strategy.ts</h3>
+    <section>
+    <h3></h3>        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="TwitterTokenStrategy"></a>
+                        <span class="name">
+                            <b>
+                            TwitterTokenStrategy</b>
+                            <a href="#TwitterTokenStrategy"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>require(&#x27;passport-twitter-token&#x27;)</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+</section>
+    <h3>src/modules/users/users.providers.ts</h3>
+    <section>
+    <h3></h3>        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="userProviders"></a>
+                        <span class="name">
+                            <b>
+                            userProviders</b>
+                            <a href="#userProviders"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>[]</code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>[{
+        provide: USER_MODEL_TOKEN,
+        useFactory: (connection: Connection) &#x3D;&gt; connection.model(&#x27;User&#x27;, UserSchema),
+        inject: [DB_CONNECTION_TOKEN]
+}]</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+</section>
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> result-matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'miscellaneous-variables';
+            var COMPODOC_CURRENT_PAGE_URL = 'variables.html';
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+       <!-- Required to polyfill modern browsers as code is ES5 for IE... -->
+       <script src="../js/libs/custom-elements-es5-adapter.js" charset="utf-8" defer></script>
+       <script src="../js/menu-wc.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

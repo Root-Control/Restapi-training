@@ -1,0 +1,1 @@
+{"version":3,"file":"twitter-config.js","sourceRoot":"","sources":["../../../../src/modules/auth/config/twitter-config.ts"],"names":[],"mappings":";;AAEa,QAAA,aAAa,GAAmB;IAC3C,YAAY,EAAE,2BAA2B;IACzC,eAAe,EAAE,oDAAoD;IACrE,iBAAiB,EAAE,6CAA6C;IAChE,gBAAgB,EAAE,4CAA4C;IAC9D,gBAAgB,EAAE,4CAA4C;IAC9D,kBAAkB,EAAE,+BAA+B;CACpD,CAAC"}

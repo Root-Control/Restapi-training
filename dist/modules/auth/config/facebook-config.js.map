@@ -1,0 +1,1 @@
+{"version":3,"file":"facebook-config.js","sourceRoot":"","sources":["../../../../src/modules/auth/config/facebook-config.ts"],"names":[],"mappings":";;AAEa,QAAA,cAAc,GAAoB;IAC7C,gBAAgB,EAAE,6CAA6C;IAC/D,gBAAgB,EAAE,qDAAqD;IACvE,SAAS,EAAE,iBAAiB;IAC5B,aAAa,EAAE,kCAAkC;IACjD,kBAAkB,EAAE,6BAA6B;IACjD,KAAK,EAAE,WAAW;CACnB,CAAC"}
